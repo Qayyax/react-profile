@@ -2,6 +2,8 @@
 
 This is my first project with react library as I am learning to use React
 
+[Deployed site](https://reactprofilemine.netlify.app)
+
 ---
 
 Quick start:
