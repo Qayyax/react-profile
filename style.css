@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    color: white;
+    background-color: #23252C;
+    font-family: 'Inter', sans-serif;
+}
+
+#root {
+    background-color: #1A1B21;
+    max-width: 317px;
+    width: 100%;
+    margin: 20px auto 0;
+    border-radius: 0px 0px 10px 10px;
+}
+
+/* Info section */
+
+#info {
+    text-align: center;
+    margin-bottom: 2.125em;
+}
+
+.pfp {
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+h1 {
+    font-size: 1.5625rem;
+    font-weight: 700;
+    margin-bottom: 0.386875em;
+}
+
+.role {
+    color: #F3BF99;
+    font-weight: 400;
+    font-size: 0.8rem;
+    margin-bottom: 0.550625em;
+}
+
+.profile-website {
+    margin-bottom: 0.875em;
+}
+.profile-website a {
+    font-weight: 400;
+    font-size: 0.64rem;
+}
+
+.email {
+    border: 1px solid #D1D5DB;
+    display: inline-block;
+    padding: 9px 94.5px;
+    background-color: #FFFFFF;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.email i,
+.email p {
+    display: inline;
+}
+
+.email i {
+    margin-right: 8px;
+    color: #1E1F26;
+}
+
+.email p {
+    color: #374151;
+}
+
+.email:hover {
+    background-color: #1A1B21;
+    color: white;
+}
+
+.email:hover i,
+.email:hover p {
+    color: white;
+}
+
+/* About and Interest section */
+
+#about,
+#interest {
+    padding: 0 35px;
+    margin-bottom: 27px;
+}
+
+#about h2,
+#interest h2{
+    margin-bottom: 0.3125em;
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+#about p,
+#interest p{
+    font-weight: 400;
+    font-size: 0.64rem;
+    line-height: 0.96rem;
+}
+
+/* Footer section */
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 24px;
+    padding: 19.5px 0;
+    background-color: #161619;
+    border-radius: 0px 0px 10px 10px;
+    margin-bottom: 44px;
+}
+
+footer > a {
+    height: 25px;
+    color: #918E9B;
+    cursor: pointer;
+}
